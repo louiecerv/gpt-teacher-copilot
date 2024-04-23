@@ -30,20 +30,17 @@ async def app():
 
     # Display the title in the right column
     with col2:
-        st.title("A Teaching Co-pilot Powered by Google Gemini on Vertex AI")
-
-    text = """Prof. Louie F. Cervantes, M. Eng. (Information Engineering) \n
-    CCS 229 - Intelligent Systems
-    Department of Computer Science
-    College of Information and Communications Technology
-    West Visayas State University
-    """
+        st.title("A Teaching Co-pilot Powered by OpenAI")
 
     with st.expander("Click to display developer information."):
+        text = """Prof. Louie F. Cervantes, M. Eng. (Information Engineering) \n
+            CCS 229 - Intelligent Systems
+            Department of Computer Science
+            College of Information and Communications Technology
+            West Visayas State University
+            """
         st.text(text)
-        link_text = "Click here to visit [Gemini 1.5 Pro](https://developers.googleblog.com/2024/04/gemini-15-pro-in-public-preview-with-new-features.html)"
-        st.write(link_text)
-        link_text = "Click here to visit [Gemini Vertex AI](https://cloud.google.com/vertex-ai/docs/start/introduction-unified-platform)"
+        link_text = "Click here to visit [openAI](https://openai.com)"
         st.write(link_text)
 
     context = """You are a teaching co-pilot designed to assist educators in various classroom tasks. 
@@ -51,10 +48,10 @@ async def app():
     Remember, your primary function is to empower teachers and enhance their effectiveness in the classroom."""
 
 
-    st.subheader("Empower Your Teaching with AI: The Gemini Teacher Copilot")
+    st.subheader("Empower Your Teaching with AI! The OpenAI Teacher Copilot")
     text = """Unleash creativity and personalize learning in your classroom with 
-    the Gemini Teacher Copilot, a revolutionary data app powered by Google's 
-    cutting-edge large language model, Gemini 1.5 on Vertex AI. This AI co-pilot 
+    the OpenAI Teacher Copilot, a revolutionary data app powered by OpenAI's 
+    cutting-edge large language model, ChatGPT 4. This AI co-pilot 
     equips educators with a treasure trove of ideas and resources to spark 
     student engagement, tackle challenging concepts, differentiate instruction, 
     design formative assessments, and seamlessly integrate technology into 
