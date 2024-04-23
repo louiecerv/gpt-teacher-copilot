@@ -48,7 +48,7 @@ async def app():
     Remember, your primary function is to empower teachers and enhance their effectiveness in the classroom."""
 
 
-    st.subheader("Empower Your Teaching with AI! The OpenAI Teacher Copilot")
+    st.subheader("Empower Your Teaching with the OpenAI Teacher Copilot!")
     text = """Unleash creativity and personalize learning in your classroom with 
     the OpenAI Teacher Copilot, a revolutionary data app powered by OpenAI's 
     cutting-edge large language model, ChatGPT 4. This AI co-pilot 
